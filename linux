@@ -1,0 +1,12 @@
+# Create user
+sudo adduser username
+
+# Remove sudo rights 
+sudo deluser username sudo
+
+# Remove user
+sudo deluser username
+sudo userdel -r -f username
+
+# Delete bash history
+history -c
