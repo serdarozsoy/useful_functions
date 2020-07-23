@@ -1,0 +1,5 @@
+# Conda create environment 
+conda create -n myenv python=3.6
+
+# Conda remove environment 
+conda remove --name myenv --all
